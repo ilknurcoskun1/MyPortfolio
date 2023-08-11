@@ -1,0 +1,54 @@
+/* Project3.css */
+.Project3-container {
+    text-align: center;
+    padding: 2rem;
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.project-image {
+    width: 400px;
+    height: 500px;
+    transition: transform 0.3s;
+}
+
+.project-image:hover {
+    transform: none; 
+}
+
+
+
+  .code-block.csharp {
+    background-color: black;
+    color: white;
+  }
+
+  
+  .code-block {
+    background-color: black;
+    color: white;
+    border: 1px solid #333;
+    padding: 1rem; 
+    overflow: auto;
+    font-family: 'Courier New', monospace;
+    text-align: left;
+    font-size: 14px; 
+    width: 80%; 
+    margin: 0 auto; 
+  }
+  
+  .custom-list {
+    list-style: none; 
+    padding-left: 0; 
+}
+
+.custom-list li {
+    margin-bottom: 1rem; 
+}
+
+@media (max-width: 768px) {
+    .Project3-container {
+        padding: 1rem; 
+    }
+   
+}

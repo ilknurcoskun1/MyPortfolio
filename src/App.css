@@ -1,0 +1,31 @@
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  border: 1px solid #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+
+

@@ -1,0 +1,17 @@
+/* Project2.css */
+.Project2-container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.project-image {
+    width: 500px;
+    height: 500px;
+    transition: transform 0.3s;
+}
+
+.project-image:hover {
+    transform: none; 
+}
+
+
